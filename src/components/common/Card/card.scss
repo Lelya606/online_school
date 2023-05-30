@@ -1,0 +1,8 @@
+@import 'src/styles/__all.scss';
+
+.MuiBox-root {
+  &.active {
+    @include h3-small();
+    color: $CodGray;
+  }
+}

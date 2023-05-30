@@ -10,19 +10,7 @@ interface IButtonProps {
 }
 
 export const Button = ({ text, variant, onClick }: IButtonProps) => (
-  <ButtonComponent
-    variant={variant}
-    sx={{
-      border: '1px solid #5F43D0',
-      borderRadius: '27px',
-      padding: '10px 20px',
-      '&:hover': {
-        borderColor: '#5F43D0',
-        backgroundColor: '#5F43D033',
-      },
-    }}
-    onClick={onClick}
-  >
+  <ButtonComponent variant={variant} onClick={onClick}>
     {text}
   </ButtonComponent>
 );

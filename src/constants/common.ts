@@ -16,3 +16,7 @@ export const PAGES = {
     href: '/faq',
   },
 };
+
+export const BORDER_CARD = {
+  hero: '90px',
+};

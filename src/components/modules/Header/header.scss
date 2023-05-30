@@ -31,11 +31,6 @@
 
   .MuiButton-root {
     border-color: $CodGray;
-    @include h3-small();
     color: $CodGray;
-
-    &:hover {
-      border: 1px solid $CodGray;
-    }
   }
 }

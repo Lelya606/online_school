@@ -32,18 +32,20 @@ export const Header = () => {
   );
 
   return (
-    <div className="header">
-      <Logo />
-      <Box>
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="nav tabs example"
-        >
-          {renderLinkTab}
-        </Tabs>
-      </Box>
-      <Button text="Войти" variant={OUTLINED} onClick={() => {}} />
+    <div className="container-px container-py">
+      <div className="header">
+        <Logo />
+        <Box>
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            aria-label="nav tabs example"
+          >
+            {renderLinkTab}
+          </Tabs>
+        </Box>
+        <Button text="Войти" variant={OUTLINED} onClick={() => {}} />
+      </div>
     </div>
   );
 };

@@ -34,3 +34,14 @@ a {
     -webkit-tap-highlight-color: transparent;
   }
 }
+
+.container {
+  &-px {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  &-py {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

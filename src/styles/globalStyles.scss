@@ -1,0 +1,36 @@
+@import 'colors';
+@import 'font';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  color: $Black;
+  font-family: 'Liberation Sans';
+}
+
+body {
+  background: $LinkWater;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+svg {
+  display: block;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

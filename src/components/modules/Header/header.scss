@@ -1,0 +1,41 @@
+@import 'src/styles/__all.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin: 50px;
+  padding: 15px 50px;
+  border-radius: 100px;
+  background-color: $White;
+
+  .MuiTabs-flexContainer {
+    column-gap: 84px;
+
+    .Mui-selected {
+      color: $Black;
+    }
+  }
+
+  .MuiTab-root {
+    @include h3-small();
+    color: $CodGray;
+  }
+
+  .MuiTabs-indicator {
+    bottom: 10px;
+    height: 1px;
+    background-color: $PurpleHeart;
+  }
+
+  .MuiButton-root {
+    border-color: $CodGray;
+    @include h3-small();
+    color: $CodGray;
+
+    &:hover {
+      border: 1px solid $CodGray;
+    }
+  }
+}

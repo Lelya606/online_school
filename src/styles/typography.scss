@@ -1,0 +1,46 @@
+@import 'font';
+@import 'colors';
+
+@mixin text(
+  $fontSize,
+  $fontWeight,
+  $fontStyle,
+  $lineHeight,
+  $textTransform: none,
+  $textColor: $Black,
+) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  font-style: $fontStyle;
+  line-height: $lineHeight;
+  color: $textColor;
+  text-transform: $textTransform;
+}
+
+@mixin h1() {
+  @include text(70px, 700, normal, 80px);
+}
+
+@mixin h1-regular() {
+  @include text(70px, 400, normal, 80px);
+}
+
+@mixin h2() {
+  @include text(50px, 500, normal, 61px);
+}
+
+@mixin h2-small() {
+  @include text(40px, 400, normal, 46px);
+}
+
+@mixin h3() {
+  @include text(30px, 400, normal, 34px);
+}
+
+@mixin h3-small() {
+  @include text(24px, 400, normal, 28px);
+}
+
+@mixin h5() {
+  @include text(18px, 400, normal, 21px);
+}

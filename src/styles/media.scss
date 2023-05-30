@@ -1,0 +1,30 @@
+$mobile-width-l: 767px;
+$tablet-width-l: 1023px;
+$desktop-small: 1200px;
+
+$portrait: '(orientation: portrait)';
+$landscape: '(orientation: landscape)';
+
+@mixin mobile-land {
+  @media screen and (max-width: $mobile-width-l) {
+    @content;
+  }
+}
+
+@mixin tablet-land {
+  @media screen and (max-width: $tablet-width-l), print {
+    @content;
+  }
+}
+
+@mixin desktop-small {
+  @media (min-width: $tablet-width-l) and (max-width: $desktop-small) {
+    @content;
+  }
+}
+
+@mixin print {
+  @media print {
+    @content;
+  }
+}

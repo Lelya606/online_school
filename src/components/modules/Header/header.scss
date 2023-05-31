@@ -20,7 +20,6 @@
 
   .MuiTab-root {
     @include h3-small();
-    color: $CodGray;
   }
 
   .MuiTabs-indicator {
@@ -31,6 +30,5 @@
 
   .MuiButton-root {
     border-color: $CodGray;
-    color: $CodGray;
   }
 }

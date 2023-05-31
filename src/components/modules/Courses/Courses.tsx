@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { Typography, Box, Divider } from '@mui/material';
 import { BigCard } from 'components/common/BigCard/BigCard';
 import { DATA_CARDS } from 'constants/common';
@@ -33,10 +33,8 @@ export const Courses = () => {
     </BigCard>
   );
 
-  const renderCards = useMemo(
-    () => DATA_CARDS.map((data, index) => renderCard(data, index)),
-    [],
-  );
+  const renderCards = () =>
+    DATA_CARDS.map((data, index) => renderCard(data, index));
 
   return (
     <Box className="courses container-px container-py">
@@ -44,7 +42,7 @@ export const Courses = () => {
       <Typography variant="body2">
         Все обучающие материалы находятся на одной платформе
       </Typography>
-      <Box className="courses-cards">{renderCards}</Box>
+      <Box className="courses-cards">{renderCards()}</Box>
     </Box>
   );
 };

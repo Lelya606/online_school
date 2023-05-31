@@ -2,7 +2,10 @@
 
 .MuiBox-root {
   &.active {
-    @include h3-small();
-    color: $CodGray;
+    .MuiTypography-root {
+      &.MuiTypography-body1 {
+        @include h3-small();
+      }
+    }
   }
 }

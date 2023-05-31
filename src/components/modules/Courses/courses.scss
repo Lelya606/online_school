@@ -1,0 +1,68 @@
+@import 'src/styles/__all.scss';
+
+.courses {
+  &, &-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & {
+    row-gap: 50px;
+  }
+
+  &-cards {
+    row-gap: 100px;
+    width: 100%;
+
+    .MuiTypography-root {
+      &.MuiTypography-body1, &.MuiTypography-body2 {
+        @include h2-small();
+      }
+
+      &.MuiTypography-body1 {
+        font-weight: 600;
+      }
+    }
+
+    .MuiDivider-root {
+      height: 5px;
+      width: 100%;
+    }
+
+    .MuiBox-root {
+      &:nth-child(odd) {
+        align-self: flex-start;
+      }
+      &:nth-child(even) {
+        align-self: flex-end;
+      }
+    }
+  }
+}
+
+.MuiTypography-root {
+  &.MuiTypography-body1 {
+    @include h1();
+  }
+
+  &.MuiTypography-body2 {
+    @include h2-small();
+  }
+}
+
+.card-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid $Stratos;
+  border-radius: 50%;
+  @include h2-small();
+  font-style: italic;
+  color: $Stratos;
+}

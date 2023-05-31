@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Liberation Sans';
+  src: local('Liberation Sans'), local('LiberationSans'), url('../assets/fonts/liberationsans.woff2') format('woff2'), url('../assets/fonts/liberationsans.woff') format('woff'), url('../assets/fonts/liberationsans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Liberation Sans';
+  src: local('Liberation Sans Italic'), local('LiberationSans-Italic'), url('../assets/fonts/liberationsansitalic.woff2') format('woff2'), url('../assets/fonts/liberationsansitalic.woff') format('woff'), url('../assets/fonts/liberationsansitalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Liberation Sans';
+  src: local('Liberation Sans Bold'), local('LiberationSans-Bold'), url('../assets/fonts/liberationsansbold.woff2') format('woff2'), url('../assets/fonts/liberationsansbold.woff') format('woff'), url('../assets/fonts/liberationsansbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Liberation Sans';
+  src: local('Liberation Sans Bold Italic'), local('LiberationSans-BoldItalic'), url('../assets/fonts/liberationsansbolditalic.woff2') format('woff2'), url('../assets/fonts/liberationsansbolditalic.woff') format('woff'), url('../assets/fonts/liberationsansbolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}

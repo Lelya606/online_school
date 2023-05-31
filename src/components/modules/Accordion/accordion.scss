@@ -1,0 +1,52 @@
+@import 'src/styles/__all.scss';
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+
+  .MuiTypography-root {
+    &.MuiTypography-body1 {
+      text-align: center;
+    }
+  }
+
+  .MuiPaper-root {
+    &.MuiPaper-elevation {
+      background-color: $Periwinkle;
+      border-radius: 70px;
+
+      &:before {
+        content: none;
+      }
+    }
+  }
+
+  .MuiAccordionSummary {
+    &-root {
+      padding: 18px 50px;
+      background-color: $Periwinkle;
+      border-radius: 70px;
+    }
+
+    &-content {
+      .MuiTypography-root {
+        @include h2-small();
+        line-height: 42px;
+      }
+    }
+  }
+
+  .MuiAccordionDetails-root {
+    .MuiTypography-root {
+      padding: 0 250px 37px 50px;
+      @include h3();
+    }
+  }
+
+  .Mui-expanded {
+    .plus {
+      display: none;
+    }
+  }
+}

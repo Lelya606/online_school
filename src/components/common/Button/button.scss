@@ -1,0 +1,27 @@
+@import 'src/styles/__all.scss';
+
+.MuiButtonBase-root  {
+  &.MuiButton-contained, &.MuiButton-outlined {
+    border: 1px solid $PurpleHeart;
+    border-radius: 27px;
+    padding: 10px 20px;
+    @include h3-small();
+  }
+
+  &.MuiButton-contained {
+    background-color: $PurpleHeart;
+    color: $White;
+
+    &:hover {
+      border-color: $Stratos;
+      background-color: $Stratos;
+    }
+  }
+
+  &.MuiButton-outlined {
+    &:hover {
+      border-color: $PurpleHeart;
+      background-color: $PurpleHeart20;
+    }
+  }
+}

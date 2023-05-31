@@ -1,0 +1,11 @@
+@import 'src/styles/__all.scss';
+
+.MuiBox-root {
+  &.active {
+    .MuiTypography-root {
+      &.MuiTypography-body1 {
+        @include h3-small();
+      }
+    }
+  }
+}

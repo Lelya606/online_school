@@ -1,0 +1,49 @@
+@import 'src/styles/__all.scss';
+
+.MuiTypography-root {
+  &.MuiTypography-h1,  {
+    @include h1();
+  }
+
+  &.MuiTypography-h2 {
+    @include h1-regular();
+  }
+
+  &.MuiTypography-h1,
+  &.MuiTypography-h2 {
+    color: $Stratos;
+  }
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 8px;
+}
+
+.inActive {
+  .MuiTypography-root {
+    @include h1-regular();
+    color: $Stratos;
+  }
+
+ & + .MuiTypography-root {
+   @include h2-small();
+   color: $Stratos;
+ }
+}
+
+.buttons-wrapper {
+  display: flex;
+  column-gap: 24px;
+  margin-top: 5px;
+
+  .MuiButtonBase-root {
+    min-width: 294px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 60px;
+  }
+}

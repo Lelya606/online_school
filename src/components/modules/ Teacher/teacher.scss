@@ -1,0 +1,47 @@
+@import 'src/styles/__all.scss';
+
+.teacher {
+  .MuiBox-root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 45px;
+    row-gap: 32px;
+
+    .inActive {
+      .MuiTypography-root {
+        &.MuiTypography-body1 {
+          @include h3-small();
+        }
+      }
+    }
+  }
+
+  &-card {
+    align-self: flex-start;
+
+    &__img {
+      width: 500px;
+      border-radius: 20px;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      margin-top: 40px;
+
+      .MuiTypography-root {
+        align-self: flex-start;
+        &.MuiTypography-body1 {
+          @include h2-small();
+        }
+      }
+    }
+
+    &__item {
+      @include h3-small();
+    }
+  }
+}

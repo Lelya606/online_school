@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import './card.scss';
 
-type TypeObject = {[key: string]: string};
+type TypeObject = { [key: string]: string };
 
 export interface ICardProps {
   title: string;

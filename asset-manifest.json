@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/online_school/static/css/main.d7c4adfd.css",
+    "main.js": "/online_school/static/js/main.323ef99f.js",
+    "static/media/liberationsansbolditalic.ttf": "/online_school/static/media/liberationsansbolditalic.a7cfe35b197cd0ccd82e.ttf",
+    "static/media/liberationsansitalic.ttf": "/online_school/static/media/liberationsansitalic.d8fcb0d84d5d25d77b3a.ttf",
+    "static/media/liberationsansbold.ttf": "/online_school/static/media/liberationsansbold.31628d628a624ca2c14c.ttf",
+    "static/media/liberationsans.ttf": "/online_school/static/media/liberationsans.e37e6909ab7f7f48911a.ttf",
+    "static/media/liberationsansbolditalic.woff": "/online_school/static/media/liberationsansbolditalic.bb0b655098b094635b39.woff",
+    "static/media/liberationsansitalic.woff": "/online_school/static/media/liberationsansitalic.0dc23a4b347a7504bd50.woff",
+    "static/media/liberationsansbold.woff": "/online_school/static/media/liberationsansbold.5cdecb8a378fa2b2af95.woff",
+    "static/media/liberationsans.woff": "/online_school/static/media/liberationsans.f7f481349c3e8fd736c3.woff",
+    "static/media/liberationsansbolditalic.woff2": "/online_school/static/media/liberationsansbolditalic.001c7b84e294c0973d84.woff2",
+    "static/media/liberationsansitalic.woff2": "/online_school/static/media/liberationsansitalic.72533bd613ba833a7387.woff2",
+    "static/media/liberationsansbold.woff2": "/online_school/static/media/liberationsansbold.9f9b010cc4a2e2bb5807.woff2",
+    "static/media/liberationsans.woff2": "/online_school/static/media/liberationsans.7c81734115eb49511312.woff2",
+    "static/media/logo.svg": "/online_school/static/media/logo.5677e0cb363bec15d2ac1abe68aa0980.svg",
+    "static/media/vk.svg": "/online_school/static/media/vk.cecec7a1bd1e018eb115630cbc9d7490.svg",
+    "index.html": "/online_school/index.html",
+    "static/media/telegram.svg": "/online_school/static/media/telegram.f8da5bb4e84212a36555b4d44149f8f4.svg",
+    "static/media/plus.svg": "/online_school/static/media/plus.51cbc14d436e64aaa0eb654ddacc09a5.svg",
+    "static/media/license.svg": "/online_school/static/media/license.7239754ae10d1570a4e7d279970d2267.svg",
+    "main.d7c4adfd.css.map": "/online_school/static/css/main.d7c4adfd.css.map",
+    "main.323ef99f.js.map": "/online_school/static/js/main.323ef99f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7c4adfd.css",
+    "static/js/main.323ef99f.js"
+  ]
+}
